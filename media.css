@@ -1,0 +1,57 @@
+@media(max-width:1200px){
+    .profile{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .profImg{
+        width: 50%;
+        height: 50%;
+    }
+    .prof{
+        width: 50%;
+    }
+    .prof h1{
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .prof .location{
+        width: 200px;
+    }
+    .location h5{
+        margin: 3px;
+    }
+    .prof p{
+        font-size: 13px ;
+    }
+}
+@media(max-width:1000px){
+    .profile{
+        display: block;
+        justify-content: center;
+    }
+    .profImg{
+        margin: 0 auto;
+    }
+    .prof{
+        width: 100%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .doc{
+        height: 10px;
+        margin: 10px 0;
+    }
+    .doc i{
+      
+        font-size: 120%;
+    }
+   
+}
+@media(max-width:700px){
+    body{
+        width: 700px;
+    }
+}
